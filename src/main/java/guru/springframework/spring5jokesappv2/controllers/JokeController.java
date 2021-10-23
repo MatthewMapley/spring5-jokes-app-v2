@@ -21,6 +21,6 @@ public class JokeController {
 
         model.addAttribute("joke", jokesService.getJoke());
 
-        return "Index";
+        return "index";
     }
 }
